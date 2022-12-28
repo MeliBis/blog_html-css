@@ -45,6 +45,26 @@ header .icons img {
     width: 25px;
     height: 25px;
 }
-.nav-logo-container{
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
 
+nav .nav-logo-container{
+    margin-left: 50px;
+}
+nav .nav-logo-container img{
+    width:80px;
+    margin-top: 10px;
+}
+nav .profile-link{
+    display: flex;/* alinear elementos al centro */
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+nav .profile-link a{
+    color: #000;
+    text-decoration: underline;
 }
